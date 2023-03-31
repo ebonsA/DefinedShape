@@ -3,7 +3,14 @@ public class Rectangle {
 
 	double width;
 	double height;
-	//new
+	
+	
+	
+	public Rectangle(double width, double height) {
+		super();
+		this.width = width;
+		this.height = height;
+	}
 	public double getWidth() {
 		return width;
 	}
